@@ -28,7 +28,7 @@ Setiap tombol langsung terhubung ke link resmi platform masing-masing dan bisa d
 → ubah https://discord.com ke URL milikmu.
 
 # 🖼️ Demo
-
+![Demo](https://avatars.githubusercontent.com/u/112155072?v=4)
 # 📄 Lisensi
 ```
 Proyek ini bebas digunakan untuk keperluan pribadi atau komersial.
