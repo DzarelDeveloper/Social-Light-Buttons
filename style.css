@@ -1,0 +1,135 @@
+ body {
+      margin: 0;
+      padding: 50px;
+      background-color: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      flex-wrap: wrap;
+    }
+
+    .light-button button.bt {
+      position: relative;
+      height: 200px;
+      display: flex;
+      align-items: flex-end;
+      outline: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .light-button button.bt .button-holder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+      width: 100px;
+      background-color: #0a0a0a;
+      border-radius: 5px;
+      color: #0f0f0f;
+      font-weight: 700;
+      transition: 300ms;
+    }
+
+    .light-button button.bt .button-holder svg {
+      height: 50px;
+      fill: #0f0f0f;
+      transition: 300ms;
+    }
+
+    .light-button button.bt .light-holder {
+      position: absolute;
+      height: 200px;
+      width: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .light-button button.bt .light-holder .dot {
+      position: absolute;
+      top: 0;
+      width: 10px;
+      height: 10px;
+      background-color: #0a0a0a;
+      border-radius: 10px;
+      z-index: 2;
+    }
+
+    .light-button button.bt .light-holder .light {
+      position: absolute;
+      top: 0;
+      width: 200px;
+      height: 200px;
+      clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+      background: transparent;
+    }
+
+    /* Discord Styles */
+    .light-button.discord button.bt:hover .button-holder svg {
+      fill: rgba(255, 138, 48, 1);
+    }
+    .light-button.discord button.bt:hover .button-holder {
+      color: rgba(255, 138, 48, 1);
+    }
+    .light-button.discord button.bt:hover .light-holder .light {
+      background: linear-gradient(
+        180deg,
+        rgba(255, 138, 48, 1) 0%,
+        rgba(255, 255, 255, 0) 75%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    }
+
+    /* LinkedIn Styles */
+    .light-button.linkedin button.bt:hover .button-holder svg {
+      fill: rgba(10, 102, 194, 1);
+    }
+    .light-button.linkedin button.bt:hover .button-holder {
+      color: rgba(10, 102, 194, 1);
+    }
+    .light-button.linkedin button.bt:hover .light-holder .light {
+      background: linear-gradient(
+        180deg,
+        rgba(10, 102, 194, 1) 0%,
+        rgba(255, 255, 255, 0) 75%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    }
+
+    /* Instagram Styles */
+    .light-button.instagram button.bt:hover .button-holder svg {
+      fill: rgba(225, 48, 108, 1);
+    }
+    .light-button.instagram button.bt:hover .button-holder {
+      color: rgba(225, 48, 108, 1);
+    }
+    .light-button.instagram button.bt:hover .light-holder .light {
+      background: linear-gradient(
+        180deg,
+        rgba(225, 48, 108, 1) 0%,
+        rgba(255, 255, 255, 0) 75%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    }
+
+    /* Telegram Styles */
+    .light-button.telegram button.bt:hover .button-holder svg {
+      fill: rgba(38, 166, 222, 1);
+    }
+    .light-button.telegram button.bt:hover .button-holder {
+      color: rgba(38, 166, 222, 1);
+    }
+    .light-button.telegram button.bt:hover .light-holder .light {
+      background: linear-gradient(
+        180deg,
+        rgba(38, 166, 222, 1) 0%,
+        rgba(255, 255, 255, 0) 75%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    }
